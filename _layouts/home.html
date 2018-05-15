@@ -2,202 +2,176 @@
 layout: default
 ---
 
+ <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#faq">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#tickets">Tickets</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#cfp">cfp</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" id="petals" href="#" >petals</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/conduct">conduct</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 <div class="home">
 
-    <section id="" class="portfolio success">
+    <section id="hero" class="portfolio success">
       <div class="container">
-        <h2 class="text-center scrollspy" id="blog">A Good Con</h2>
-        <hr class="star-primary star-blue">
+          <h2 class="text-center">{{ site.con_heading }}</h2>
+        <hr class="star-primary ">
         <p>
-        {{ site.con_description_long }}
+        {{ site.con_description_short }}
         </p>
-
-
-      </div>
-
-    </section>
-
-
-
-    <section id="" class="portfolio success">
-      <div class="container">
-        <h2 class="text-center scrollspy" id="websites">one-use novelty websites</h2>
-        <hr class="star-primary star-purple">
-        <div class="grid">
-
-            <div class=" portfolio-item">
-                <a href="https://textfac.es" class="btn btn-lg btn-outline btn-purple">textfac.es</a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        Click-to-copy unicode faces like these guys: ( ͡° ͜ʖ ͡°) ¯\_(ツ)_/¯
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" portfolio-item">
-                <a href="https://verylegit.link" class="btn btn-lg btn-outline btn-pink">verylegit.link</a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        A URL shortener that also makes the URL look extremely dodgy. For example: <a href="https://ftp.verylegit.link/z,p_0GL.;q_YP-87filehost=spyware.pptx.min.css.exe">ftp.verylegit.link/z,p_0GL.;q_YP-87filehost=spyware.pptx.min.css.exe</a>
-                        Here's the <a href="https://news.ycombinator.com/item?id=14628278">Hacker News Comments</a>.
-                        </p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class=" portfolio-item">
-                <a href="https://emojityper.com" class="btn btn-lg btn-outline btn-lightblue">
-                    emojityper.com
-                </a>
-                    <div class="caption">
-                        <div class="caption-content">
-                            <p>
-                            Type words, get emoji. It's for when you want emoji on desktop. I made v1, and <a href="https://twitter.com/samthor">@samthor</a> made the vastly more web-17.0 v2.
-                            </p>
-
-                        </div>
-                    </div>
-            </div>
-
-
-            <div class=" portfolio-item">
-                <a href="http://swagify.net" class="btn btn-lg btn-outline btn-pink">
-                    swagify.net
-                </a>
-                    <div class="caption">
-                        <div class="caption-content">
-                            <p>Generates SICK 2003 usernames like [MTNDEW]xxX_m@ng0PdF_Xxx. Read the js for a pleasant surprise.
-                            </p>
-
-                        </div>
-                    </div>
-            </div>
-
-            <div class=" portfolio-item">
-                <a href="https://gabegaming.com" class="btn btn-lg btn-outline btn-purple">
-                    gabegaming.com
-                </a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        Ummmmm you had to be there okay. A collab with <a href="https://twitter.com/RakeDodgers">@RakeDodgers</a>. Steam is embedded in an iframe and changes a lot and this site is held together with nothing but man's hubris so it might be broken, sorry.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class=" portfolio-item useragent " style="display: none;">
-                <a href="#" class="btn btn-lg btn-outline btn-purple">
-                </a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        Juuuuuust kidding.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-      </div>
-    </section>
-
-    <section id="" class="portfolio success">
-      <div class="container">
-        <h2 class="text-center scrollspy" id="talks">talk recordings</h2>
-        <hr class="star-primary star-pink">
-        <div class="grid">
-
-            <div class=" portfolio-item">
-                <a href="https://www.youtube.com/watch?v=9S3zwwCEe0E" class="btn btn-lg btn-outline btn-purple">Operation Luigi: How I hacked my friend without her noticing</a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        Come on down to luigi town, we've got: the 2013 tumblr hack, linkedin roasting, your sweet mango boy, one loopy b o i, regrets
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" portfolio-item">
-                <a href="https://www.youtube.com/watch?v=nSu11VvVL9M" class="btn btn-lg btn-outline btn-pink">Tricking people</a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        The techniques magicians and pickpockets use to trick people work for hacking too.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class=" portfolio-item">
-                <a href="https://www.youtube.com/watch?v=MkSkqMvGBuo" class="btn btn-lg btn-outline btn-lightblue">Graphing when your Facebook friends are awake</a>
-                <div class="caption">
-                    <div class="caption-content">
-                        <p>
-                        At PyCon AU 2016. For the record, this is creepy and I think doing it is not okay!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
       </div>
   </section>
 
-    <section id="" class="portfolio success">
+
+    <section id="faq" class="portfolio success">
       <div class="container">
-        <h2 class="text-center scrollspy" id="tweets">tweets</h2>
-        <hr class="star-primary star-purple">
-        <div class="container col-lg-8">
-            <a class="twitter-timeline" data-width="700" data-height="400" data-dnt="true" data-theme="dark" data-link-color="#9266CC" href="https://twitter.com/mangopdf">Tweets by mangopdf</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        <h2 class="text-center scrollspy" id="websites">FAQ</h2>
+        <div class="grid items">
+
+            <div class="portfolio-item">
+                <h3 class="">What does Purplecon want?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.what_does_purplecon_want }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" portfolio-item">
+                <h3 class="">Who is Purplecon for?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.who_is_it_for }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" portfolio-item">
+                <h3 class="">Where/when is Purplecon?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.where_when }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" portfolio-item">
+                <h3>Can Purplecon become a Justice of the Peace in my jurisdiction?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.can_purplecon_be_a_jp }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" portfolio-item">
+                <h3>Is Purplecon a gateway into <em>fully</em> uploading myself to the cloud?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.is_purplecon_gateway_cloud }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" portfolio-item">
+                <h3 class="">Can I please, if it's not much trouble, be a Purplecon?</h3>
+                <hr class="star-primary">
+                <div class="caption">
+                    <div class="caption-content">
+                        <p>
+                        {{ site.can_i_be_a_purplecon }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
+
+    </section>
+
+    <section id="tickets" class="portfolio success">
+      <div class="container">
+          <h2 class="text-center">Tickets</h2>
+        <hr class="star-primary ">
+        <p>
+        {{ site.tickets_description }}
+        </p>
       </div>
   </section>
 
-    <section class="portfolio success" id="">
+    <section id="cfp" class="portfolio success">
       <div class="container">
-        <h2 class="text-center scrollspy" id="about">about</h2>
-        <hr class="star-primary star-blue">
-        <div class="grid">
-          <div class="portfolio-item">
-              <h4>What's with the "Alex" thing?</h4>
-              <p>
-              Once, an article referred to me as <a href="https://motherboard.vice.com/en_us/article/tinder-social-lets-you-stalk-your-friends-dating-habits-hack-last-active">a hacker who goes by the name "Alex"</a>, so that's my hacker handle now and there's nothing I can do about it.
-              </p>
-          </div>
-
-          <div class="portfolio-item">
-              <h4>Do you have an actual pdf called mango.pdf?</h4>
-              <p>
-              Sure, <a id="pdf" href="/mango.pdf" data-uh-dont-worry-about-it="lisreal2401">here you go</a>.
-              It's got a password on it though. The password is hidden somewhere in this page. Have fun!
-             </p>
-         </div>
-
-        </div>
+          <h2 class="text-center">Call for papers</h2>
+        <hr class="star-primary ">
+        <p>
+        {{ site.cfp_description}}
+        </p>
       </div>
-    </section>
+  </section>
+
+    <section id="contact" class="portfolio success">
+      <div class="container">
+          <h2 class="text-center">Contact us</h2>
+        <hr class="star-primary ">
+        <p>
+        The Purplecon digital online humans are
+        <a href="//twitter.com/ryankurte">@ryankurte</a>,
+        <a href="//twitter.com/__nolang">@__nolang</a>,
+        <a href="//twitter.com/mangopdf">@mangopdf</a>, and
+        <a href="//twitter.com/jsstott">@jsstott</a>.
+        </p>
+        <p>
+        You can contact us at us@purplecon.nz, or on Twitter.
+        </p>
+        <p>
+        The venue, some costs, and limitless cosmic guidance was provided to us by the <a href="kiwicon.org">Kiwicon Crue</a> &lt;3
+        </p>
+      </div>
+  </section>
 
     <footer class="text-center">
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  Whoa, you scrolling down here felt weird. Did something happen up there?
-            </div>
-          </div>
-        </div>
+        <div class="footer-below">
+            <p class="small">
+            this hypertext fever dream made with &lt;3 in a juicebox-and-velcro environment by <a href="https://mango.pdf.zone">@mangopdf</a>
+            </p>
       </div>
   </footer>
 </div>

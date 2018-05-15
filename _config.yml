@@ -13,37 +13,32 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: the mango zone
-email: mangodotpdf@gmail.com
+title: purplecon
+email: us@purplecon.nz
 description: >- # this means to ignore newlines until "baseurl:"
-    memes
+    a nice place for infosec friends to be friends
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mangopdf
-github_username:  mangopdf
-show_drafts: false
+twitter_username: purplecon
+github_username:  purplecon
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
-long_text: "These are used to personalize your new site. If you look in the HTML files,
- you will see them accessed via ite.title and so on.
- You can create any custom variable you would like, and they will be accessible
- in the templates via ."
 
-con_description_short: "PurpleCon is a con you can attend. This is about how long this text should be."
-con_description_long: "Purplecon is a fully sick, lactose free, nintendo-certified DLC for your Nintendo GameBoy console. Join Grace and the gang on another adventure this Spring, travelling to new and exciting worlds in search of the legendary Fountain of Lychee Jelly."
 logo_url: "https://example.com/logo"
 
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+con_heading: "Purplecon"
+con_description_short: "Purplecon is a cool and trendy event for defenders and developers to share actionable security wisdom in a safe and inclusive environment. Purplecon 2018 is $100% real and you are invited."
+
+what_does_purplecon_want: "Your favourite stories about helping people build stuff that’s Strong vs Hackers. Developers writing secure code, blue team helping ship it, the red team defending it. Anything that keeps people safe."
+why_is_purplecon: "We just thought it would be Good."
+can_purplecon_be_a_jp: "heck yeah we love justice"
+where_when: "15 November 2018. The goddAmn Michael Fowler Centre."
+can_i_be_a_purplecon: "You can be anything you believe you can be. Have yourself a red-hot browse of the CFP."
+is_purplecon_gateway_cloud: "log in, become a presenter, everybody to the data centre"
+tickets_description: "One day you'll be able to buy tickets here. Not today, though."
+who_is_it_for: "Developers, Students, Security People, Nurses, Elves, Level 8 Wizards. Anyone who wants to learn about defensive computer security."
+cfp_description: "Want to talk at Purplecon? Come on down to CFP form town (link goes here). Do <em>not</em> actually send us papers. We don't know what to do with them."

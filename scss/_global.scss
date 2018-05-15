@@ -8,11 +8,13 @@ body {
 p {
   font-size: 20px;
   font-weight: bold;
+  color: $theme-primary;
 }
 
 p.small {
   font-size: 16px;
 }
+
 a,
 a.active,
 a:active,
@@ -30,6 +32,8 @@ h5,
 h6 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
+
+  color: $theme-primary;
 }
 
 .star-inline {
@@ -53,36 +57,14 @@ h6 {
   border: none;
   border-top: solid 5px;
 }
-.star-light:after,
-.star-primary:after {
-  font-family: FontAwesome;
-  font-size: 2em;
-  @media (max-width: 1000px) {
-      font-size: 1em;
-  }
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-}
 
 .star-light {
   border-color: white;
-}
-.star-light:after {
-  color: white;
-  background-color: $background-grey;
 }
 
 .star-primary {
   border-color: $theme-primary;
 }
-.star-primary:after {
-  color: $theme-primary;
-  background-color: $background-grey;
-}
-
 .img-centered {
   margin: 0 auto;
 }
