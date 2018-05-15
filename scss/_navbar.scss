@@ -7,7 +7,7 @@
   -webkit-animation: colorchange 20s infinite; 
 
   font-weight: bold;
-  a {
+  a,p {
       text-transform: lowercase;
   }
   border: none;
@@ -27,7 +27,7 @@
   .navbar-nav {
     letter-spacing: 1px;
     li.nav-item {
-      a.nav-link {
+      .nav-link {
         color: $theme-primary;
         &:hover {
           color: $theme-success;

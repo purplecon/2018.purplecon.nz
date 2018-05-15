@@ -98,7 +98,7 @@ section.success {
   -webkit-animation: colorchange 20s infinite;
   font-weight: bold;
   border: none; }
-  #mainNav a {
+  #mainNav a, #mainNav p {
     text-transform: lowercase; }
   #mainNav a:focus {
     outline: none; }
@@ -109,12 +109,12 @@ section.success {
       color: #454545; }
   #mainNav .navbar-nav {
     letter-spacing: 1px; }
-    #mainNav .navbar-nav li.nav-item a.nav-link {
+    #mainNav .navbar-nav li.nav-item .nav-link {
       color: #454545; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+      #mainNav .navbar-nav li.nav-item .nav-link:hover {
         color: #000;
         outline: none; }
-      #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+      #mainNav .navbar-nav li.nav-item .nav-link:active, #mainNav .navbar-nav li.nav-item .nav-link:focus {
         color: #454545; }
   #mainNav .navbar-toggler {
     font-size: 14px;
