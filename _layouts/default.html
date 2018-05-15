@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="@mangopdf">
 
-    <title>{{ page.title | default: "Purplecon" }}</title>
-    <meta name="description" content="{{ page.descrption | default: "site.con_description_short;" }}">
+    <title>Purplecon</title>
+    <meta name="description" content="{{ site.con_description_short }}" >
 
-    <meta property="og:title" content="{{ page.title | default: "Purplecon" }}">
-    <meta property="og:description" content="{{ page.description | default: "site.con_description_short;" }}">
-    <meta property="og:image" content="{{ page.image| default: "site.logo_url" }}">
+    <meta property="og:title" content="Purplecon">
+    <meta property="og:description" content="{{ site.con_description_short }}">
+    <meta property="og:image" content="{{ site.logo_url }}">
     <meta property="og:url" content="https://purplecon.nz{{ page.url }}">
 
-    <meta name="twitter:title" content="{{ page.title | default: "Purplecon" }}">
-    <meta name="twitter:description" content="{{ page.description| default: "site.con_description_short;" }}">
-    <meta name="twitter:image" content="{{ page.image| default: "site.logo_url" }}">
+    <meta name="twitter:title" content="Purplecon">
+    <meta name="twitter:description" content="{{ site.con_description_short }}">
+    <meta name="twitter:image" content="{{ site.logo_url }}">
     <meta name="twitter:card" content="summary_large_image">
 
     <link href="{{ "vendor/bootstrap/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
