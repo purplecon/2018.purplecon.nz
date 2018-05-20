@@ -6,20 +6,24 @@
     "use strict";
 
     var limegags = {
-        1: "nice one",
-        2: "mmm, limey",
+        1: "nice",
+        2: "oh ok",
         3: "wow you're really turning up the zing meter",
-        5: "whew, ya sure like limes",
+        5: "zinngggggggg",
         10: "seems like a lot but ok",
         20: "not really sure what to do with these",
-        40: "maybe lemonade? limeonade? probs not",
+        40: "too many to carry, maybe use a wheelbarrow",
         50: "wow you're still going",
         75: "#roadto100",
         100: "you are now logged in to the LIME REALM",
         1000: "definitely hax but ok"
     }
 
-    $('body').sakura();
+    $('body').sakura('start', {
+        maxSize: 25,
+        minSize: 15,
+        newOn: 200
+    });
     var limes = 0;
 
     var save = function() {
@@ -57,8 +61,7 @@
             var limePowers = Object.keys(limegags);
 
             for (var i = 0; i < limePowers.length; i++) {
-                console.log(i);
-                // Don't go off the edge of the array.
+                // Don't go off the edge of the array (this is redundant lol)
                 if (i == limePowers.length - 1) {
                     // This is DUMB.
                     $('#lime-gag').text(limegags[limePowers[limePowers.length- 1]]);
@@ -66,7 +69,6 @@
                 }
                 var limePower = limePowers[i];
                 var nextLimePower = limePowers[i + 1];
-                console.log(limePower + "|" + nextLimePower);
                 // If we're between two power levels
                 if (limePower <= limes && limes < nextLimePower) {
                     $('#lime-gag').text(limegags[limePower]);

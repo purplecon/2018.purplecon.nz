@@ -2,6 +2,8 @@
 #mainNav {
   //font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
+  text-align: center;
+  border-bottom: 1px solid $theme-primary;
 
   animation: colorchange 20s infinite; 
   -webkit-animation: colorchange 20s infinite; 
@@ -50,7 +52,7 @@
     &:hover {
       color: $theme-primary;
       border-color: $theme-success;
-      background-color: $theme-success;
+      background-color: lighten($purple, 50%);
     }
   }
 }

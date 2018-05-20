@@ -94,6 +94,8 @@ section.success {
       outline: none; }
 
 #mainNav {
+  text-align: center;
+  border-bottom: 1px solid #454545;
   animation: colorchange 20s infinite;
   -webkit-animation: colorchange 20s infinite;
   font-weight: bold;
@@ -125,7 +127,7 @@ section.success {
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: #454545;
       border-color: #000;
-      background-color: #000; }
+      background-color: white; }
 
 @media (min-width: 992px) {
   #mainNav {
