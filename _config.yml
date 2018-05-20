@@ -32,13 +32,13 @@ logo_url: "https://example.com/logo"
 
 con_heading: "Purplecon"
 con_description_short: "Purplecon is a cool and trendy event for defenders and developers to share actionable security wisdom in a safe and inclusive environment. Purplecon 2018 is $100% real and you are invited."
-
 what_does_purplecon_want: "Your favourite stories about helping people build stuff that’s Strong vs Hackers. Developers writing secure code, security team helping ship it, server warlocks running it. Anything that keeps people safe."
 why_is_purplecon: "We just thought it would be Good."
 can_purplecon_be_a_jp: "heck yeah we love justice"
-where_when: "15 November 2018. The goddAmn Michael Fowler Centre."
-can_i_be_a_purplecon: "You can be anything you believe you can be. Have yourself a red-hot browse of the CFP."
+where_when: "15 November 2018. The goddAmn Michael Fowler Centre. Wellington, New Zealand."
+can_i_be_a_purplecon: "Have yourself a browse of the CFP."
 is_purplecon_gateway_cloud: "log in, become a presenter, everybody to the data centre"
 tickets_description: "One day you'll be able to buy tickets here. Not today, though."
-who_is_it_for: "Developers, Students, Security People, Nurses, Elves, Level 8 Wizards. Anyone who wants to learn about defensive computer security."
-cfp_description: "Want to talk at Purplecon? Come on down to CFP form town (link goes here). Do <em>not</em> actually send us papers. We don't know what to do with them."
+who_is_it_for: "Developers, Students, Security People, Nurses, The Illuminati, Elves, Level 8 Wizards. Anyone who wants to learn about defensive computer security."
+cfp_description: "Want to talk at Purplecon? Come on down to <a href=\"#\">CFP form</a> town. Do <em>not</em> actually send us papers. We don't know what to do with them."
+
