@@ -28,6 +28,35 @@ section#hero {
     text-align: center;
 }
 
+section#solo {
+
+    color: $theme-primary;
+    font-size: 20px;
+
+    strong {
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 22px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+}
+
 
 /* welcome to the grid zone */
 

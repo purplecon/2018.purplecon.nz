@@ -490,6 +490,24 @@ section#hero {
   margin-bottom: 100px;
   text-align: center; }
 
+section#solo {
+  color: #454545;
+  font-size: 20px; }
+  section#solo strong {
+    text-decoration: underline; }
+  section#solo p {
+    text-align: left; }
+  section#solo h2 {
+    font-size: 30px;
+    margin-bottom: 20px; }
+  section#solo h3 {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  section#solo h4 {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px; }
+
 /* welcome to the grid zone */
 div.grid {
   display: grid;
