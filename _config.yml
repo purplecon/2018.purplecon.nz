@@ -40,7 +40,7 @@ can_i_be_a_purplecon: "Have yourself a browse of the CFP."
 is_purplecon_gateway_cloud: "log in, become a presenter, everybody to the data centre"
 tickets_description: "One day you'll be able to buy tickets here. Not today, though."
 who_is_it_for: "Developers, Students, Security People, Nurses, The Illuminati, Elves, Level 8 Wizards. Anyone who wants to learn about defensive computer security."
-cfp_description: "Want to talk at purplecon? Come on down to <a href=\"https://goo.gl/forms/OrqCEm43zyhY8SUW2\">CFP</a> town. Do <em>not</em> actually send us physical papers. We don't know what to do with them. 
+cfp_description: "Want to talk at purplecon? Come on down to <a href=\"/cfp\">CFP</a> town. Do <em>not</em> actually send us physical papers. We don't know what to do with them. 
     We <em>do</em> want speakers to submit some kind of document with their talk. This way, when someone wants to <em>actually</em> use your limitless interdimensional knowledge, they have something to refer to."
 conduct_description: "Everyone attending is expected to follow our <a href=\"/conduct\">Code of Conduct</a>. This means a lot to us and we're not messing around."
 cfp_link: "https://goo.gl/forms/OrqCEm43zyhY8SUW2"
