@@ -92,5 +92,15 @@
         save();
     });
 
+    var freelimes = function () {
+        var url = new URL(window.location.href);
+        var promocode = url.searchParams.get("promocode");
+        if (promocode == "youarethebest") {
+            limes = limes + 1;
+            update();
+            save();
+        }
+    }
+    freelimes();
 
 })(jQuery);
