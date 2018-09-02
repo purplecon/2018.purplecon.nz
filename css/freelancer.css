@@ -697,3 +697,12 @@ code {
 
 hr {
   border-top: 1px solid rgba(255, 255, 255, 0.2); }
+
+hr.divider {
+  border-top: 5px solid rgba(255, 255, 255, 0.2); }
+
+section#talks h3 {
+  font-size: 40px; }
+
+section#talks p {
+  text-align: left; }

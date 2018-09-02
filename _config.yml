@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     a nice place for infosec friends to be friends
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: purplecon
+twitter_username: purpleconnz
 github_username:  purplecon
 # Build settings
 markdown: kramdown
