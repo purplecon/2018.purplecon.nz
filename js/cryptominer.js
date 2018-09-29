@@ -1,9 +1,10 @@
 
-// Yeah it's called "freelancer.js" what EVER do not @ me
+// "Juuuuuust kidding"
 
-// Why is it "toothbrushes"? It's "teethbrush" and you know it.
 (function($) {
     "use strict";
+
+    console.log("uh oh, looks like somebody's........ [low voice] hacking")
 
     var limegags = {
         1: "nice",
@@ -19,11 +20,14 @@
         1000: "definitely hax but ok"
     }
 
-    $('body').sakura('start', {
-        maxSize: 25,
-        minSize: 15,
-        newOn: 200
-    });
+    // don't cryptomine on every page
+    if (window.location.pathname === '/') {
+        $('body').sakura('start', {
+            maxSize: 25,
+            minSize: 15,
+            newOn: 200
+        });
+    }
     var limes = 0;
 
     var save = function() {
