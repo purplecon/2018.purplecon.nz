@@ -47,7 +47,7 @@ gulp.task('minify-css', ['sass'], function() {
 
 // Minify custom JS
 gulp.task('minify-js', function() {
-  return gulp.src('js/freelancer.js')
+  return gulp.src('js/cryptominer.js')
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
