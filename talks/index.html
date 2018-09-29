@@ -16,14 +16,13 @@ layout: default
   </section>
   <section id="talks" class="portfolio success">
       {% for talk in site.data.talks %}
-      <div id="{{ talk.id }}" class="container">
-          <div class="">
+      <div id="{{ talk.id }}" class="container talk">
+          <div class="talk-content">
               <h3 class="title">{{ talk.title}}</h3>
-              <h4 class="speaker">{{ talk.speaker }}</h3>
-          </div>
-          <div class="">
               <p class="abstract">{{ talk.description }}</p>
-              <hr class="divider">
+          </div>
+          <div class="speaker">
+              <h4 class="speaker"><span class="speaker-prefix">delivered to you by: </span>{{ talk.speaker }}</h3>
 
              <p class="bio">{{ talk.bio}}</p>
           </div>

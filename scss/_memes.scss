@@ -7,23 +7,49 @@ body {
 
 @keyframes colorchange
 {
-  0%   {background: $purple;}
+  0%   {background: $pink;}
   33%  {background: $blue;}
-  66%  {background: $pink;}
-  100%  {background: $purple;}
+  66%  {background: $purple;}
+  100%  {background: $pink;}
 }
 
 @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
 {
-  0%   {background: $purple;}
+  0%   {background: $pink;}
   33%  {background: $blue;}
-  66%  {background: $pink;}
-  100%  {background: $purple;}
+  66%  {background: $purple;}
+  100%  {background: $pink;}
+}
+
+div.brand {
+
+    span {
+        vertical-align: -webkit-baseline-middle;
+        text-transform: lowercase;
+        font-size: 80px;
+        color: $theme-primary;
+    }
+
+    img#logo {
+        width: 50px;
+    }
+}
+
+img.logo-hero {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+div.root-content {
+    margin-top: 50px;
 }
 
 
 section#hero {
-    margin-top: 200px;
+    //margin-top: 200px;
     margin-bottom: 100px;
     text-align: center;
 }

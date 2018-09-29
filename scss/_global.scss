@@ -18,10 +18,14 @@ p.small {
 a,
 a.active,
 a:active,
-a:focus,
-a:hover {
+a:focus {
   color: #7869cc;
   outline: none;
+}
+a:hover {
+  color: lighten(#7869cc, 10%);
+  outline: none;
+  text-decoration: none;
 }
 
 h1,

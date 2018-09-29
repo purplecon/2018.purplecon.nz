@@ -3,6 +3,13 @@ hr.divider {
     border-top: 5px solid rgba(255,255,255,.2)
 }
 section#talks {
+    div.talk {
+        margin-bottom: 100px;
+
+        div.talk-content {
+            margin-bottom: 40px;
+        }
+    }
     h3 {
         font-size: 40px;
     }
