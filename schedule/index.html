@@ -23,7 +23,13 @@ layout: default
                             <span class="start-time">{{ talk.start_time }}</span>
                         </div>
                         <div class="speaker">{{ talk.speaker }}</div>
-                        <div class="title"><a href="/talks#{{ talk.id }}">{{ talk.title}}</a></div>
+                        <div class="title">
+                            {% if talk.id %}
+                            <a href="/talks#{{ talk.id }}">{{ talk.title}}</a>
+                            {% else %}
+                            <span>{{ talk.title }}</span>
+                            {% endif %}
+                        </div>
               </div>
                   {% endfor %}
       </div>
