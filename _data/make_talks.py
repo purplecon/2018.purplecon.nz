@@ -1,5 +1,6 @@
 import csv
 import string
+import sys
 
 def make_id(title):
     title = title.lower()
@@ -9,7 +10,7 @@ def make_id(title):
     return "-".join(words)
 
 rows = []
-with open('talks.csv', newline='') as csvfile:
+with open(sys.argv[1], newline='') as csvfile:
      reader = csv.reader(csvfile)
      for row in reader:
          speaker= row[2]

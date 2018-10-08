@@ -8,11 +8,6 @@ layout: default
       <div class="container">
           <h2 class="text-center">Schedule</h2>
         <hr class="star-primary ">
-        <p>
-        These are the talks that are gonna be on, so you know exactly what you're missing while you're in the hallway making friends.
-        </p>
-        <p>
-        </p>
       </div>
   </section>
   <section id="schedule" class="portfolio success">
@@ -25,7 +20,7 @@ layout: default
                         <div class="speaker">{{ talk.speaker }}</div>
                         <div class="title">
                             {% if talk.id %}
-                            <a href="/talks#{{ talk.id }}">{{ talk.title}}</a>
+                            <a href="/talks#{{ talk.id }}">{{ talk.title}} [keynote]</a>
                             {% else %}
                             <span>{{ talk.title }}</span>
                             {% endif %}

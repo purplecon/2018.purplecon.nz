@@ -80,7 +80,7 @@ Or does it?
 The new WebAuthn standard makes it dead simple to add multi-factor authentication to your web app. Let’s find out how!",Benno Rice,"Benno is a software engineer who has worn many hats. Among those have been such hats as that of a Python developer (he co-created the behave BDD tool for Python), a FreeBSD developer (he started its PowerPC port among other things), a FreeBSD Core Team member (community management is hard, folks), and a conference speaker on subjects ranging from the history of I/O to the problems of leading large open source software projects.
 
 He currently lives in Melbourne and works for Yubico making the world a better place.",benno-rice
-Do you know what your containers are made of?,"Containers are a great way to run software; you can think about the container as a black box that provides you a service and get on with your life of writing our own business critical software. 
+Do you know what your containers are made of?,"Containers are a great way to run software; you can think about the container as a black box that provides you a service and get on with your life of writing our own business critical software.
 
 Then one day you'll do a review with professional security people, and they'll be like ""hey, these docker containers; how much do you trust redis:latest?"" and then it's time to embark on a journey of discovery until you get back to Ken Thompson's ""Reflections on Trusting Trust"" paper from 1984 and throw up your hands ¯\_(ツ)_/¯
 
