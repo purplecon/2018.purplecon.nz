@@ -730,7 +730,8 @@ section#talks h3 {
   font-size: 40px; }
 
 section#talks p {
-  text-align: left; }
+  text-align: left;
+  white-space: pre-wrap; }
 
 a.sneaky-anchor {
   display: block;
