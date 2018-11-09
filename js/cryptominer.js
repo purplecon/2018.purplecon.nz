@@ -28,6 +28,15 @@
             newOn: 200
         });
     }
+    if (window.location.pathname.startsWith('/blank')) {
+        $('body').sakura('start', {
+            maxSize: 25,
+            minSize: 15,
+            newOn: 100
+        });
+    }
+
+
     var limes = 0;
 
     var save = function() {

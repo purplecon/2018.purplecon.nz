@@ -1,46 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="@mangopdf">
-
-    <title>purplecon</title>
-    <meta name="description" content="{{ site.con_description_short }}" >
-
-    <meta property="og:title" content="purplecon">
-    <meta property="og:description" content="{{ site.con_description_short }}">
-    <meta property="og:image" content="{{ site.logo_url }}">
-    <meta property="og:url" content="https://purplecon.nz{{ page.url }}">
-
-    <meta name="twitter:title" content="purplecon">
-    <meta name="twitter:description" content="{{ site.con_description_short }}">
-    <meta name="twitter:image" content="{{ site.logo_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-
-    <link href="{{ "vendor/bootstrap/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
-
-    <link href="{{ "vendor/font-awesome/css/font-awesome.min.css" | relative_url }}" rel="stylesheet" type="text/css">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-    <link href="{{ "css/freelancer.min.css" | relative_url }}" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-    <link type="text/css" rel="stylesheet" media="screen" href="/css/jquery-sakura.css" />
-
-    <!-- NSA tracking-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39885839-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-39885839-9');
-    </script>
-
-</head>
+  {% include head.html %}
 
   <body>
     <main class="page-content" aria-label="Content">
@@ -99,17 +60,8 @@
       </div>
     </main>
 
+    {% include footer.html %}
 
-
-
-    <script src="{{ "vendor/jquery/jquery.min.js" | relative_url }}"></script>
-    <script src="{{ "vendor/popper/popper.min.js" | relative_url }}"></script>
-    <script src="{{ "vendor/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>
-
-    <script src="{{ "vendor/jquery-easing/jquery.easing.min.js" | relative_url }}"></script>
-
-    <script src="/js/jquery-sakura.min.js"></script>
-    <script src="{{ "js/cryptominer.js" | relative_url }}"></script>
   </body>
 
 </html>
