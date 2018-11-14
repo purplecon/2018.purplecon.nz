@@ -31,9 +31,9 @@ plugins:
 logo_url: "https://example.com/logo"
 
 con_heading: "purplecon"
-con_description_short: "purplecon is a cool and trendy event for defenders and developers to share actionable security wisdom in a safe and inclusive environment. purplecon is 100% real and is happening on the 15th of november 2018 in wellington, new zealand."
+con_description_short: "purplecon is happening <em>right now</em>. upload yourself to the con via the <a href=\"/stream\">live stream</a>"
 what_does_purplecon_want: "Your favourite stories about helping people build stuff that’s Strong vs Hackers. Developers writing secure code, security team helping ship it, server warlocks running it. Anything that keeps people safe."
-why_is_purplecon: "We just thought it would be Good."
+why_is_purplecon: "we just thought it would be Good."
 can_purplecon_be_a_jp: "heck yeah we love justice"
 where_when: "15 November 2018. The goddAmn Michael Fowler Centre. Wellington, New Zealand."
 is_purplecon_gateway_cloud: "log in, become a presenter, everybody to the data centre"
@@ -42,5 +42,3 @@ cfp_description: "Want to talk at purplecon? Come on down to <a href=\"/cfp\">CF
     We <em>do</em> want speakers to submit some kind of document with their talk. This way, when someone wants to <em>actually</em> use your limitless interdimensional knowledge, they have something to refer to."
 conduct_description: "Everyone attending is expected to follow our <a href=\"/conduct\">Code of Conduct</a>. This means a lot to us and we're not messing around."
 cfp_link: "https://goo.gl/forms/OrqCEm43zyhY8SUW2"
-
-
