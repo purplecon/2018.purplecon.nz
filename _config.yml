@@ -31,7 +31,6 @@ plugins:
 logo_url: "https://example.com/logo"
 
 con_heading: "purplecon"
-con_description_short: "purplecon is happening <em>right now</em>. upload yourself to the con via the <a href=\"/stream\">live stream</a>"
 what_does_purplecon_want: "Your favourite stories about helping people build stuff that’s Strong vs Hackers. Developers writing secure code, security team helping ship it, server warlocks running it. Anything that keeps people safe."
 why_is_purplecon: "we just thought it would be Good."
 can_purplecon_be_a_jp: "heck yeah we love justice"
