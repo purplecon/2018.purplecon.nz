@@ -35,7 +35,13 @@
             newOn: 100
         });
     }
-
+    if (window.location.pathname.startsWith('/haiku')) {
+        $('body').sakura('start', {
+            maxSize: 25,
+            minSize: 15,
+            newOn: 100
+        });
+    }
 
     var limes = 0;
 
