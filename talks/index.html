@@ -22,11 +22,9 @@ layout: default
               <h3 class="title">{{ talk.title}}</h3>
               <p class="abstract">{{ talk.description }}</p>
               <p class="archive">
-                {% for link in site.data.archive %}
-                {% if talk.id == link.id %}
-                    <a class="archive-link" href="{{ link.href }}">{{ link.text }}</a>
-                {% endif %}
-                {% endfor %}
+                {% for link in site.data.archive %}{% if talk.id == link.id %}
+                <a class="archive-link" href="{{ link.href }}">{{ link.text }}</a>
+                {% endif %}{% endfor %}
               </p>
           </div>
           <div class="speaker">
