@@ -17,6 +17,7 @@ article.post {
     @media (min-width: 1050px) {
         width: 740px;
     }
+    margin-bottom: 200px;
 }
 
 h1,h2,h3,h4,h5 {
@@ -25,6 +26,7 @@ h1,h2,h3,h4,h5 {
     @media (min-width: 320px) {
         font-size: 30px;
     }
+    margin-top: 50px;
 }
 
 pre.highlight {
@@ -43,11 +45,20 @@ div.footnotes {
 }
 
 
-div.post-content img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
+header.post-header {
+    margin-top: 25px;
+}
+
+div.post-content  {
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
 }
 

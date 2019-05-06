@@ -17,12 +17,13 @@ title: purplecon
 email: us@purplecon.nz
 description: >- # this means to ignore newlines until "baseurl:"
     a nice place for infosec friends to be friends
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+    #baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: purpleconnz
 github_username:  purplecon
 # Build settings
 markdown: kramdown
+permalink: /:title
 theme: minima
 plugins:
   - jekyll-feed

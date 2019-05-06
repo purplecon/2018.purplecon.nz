@@ -674,7 +674,8 @@ article.post {
   font-weight: 300;
   font-size: 21px !important;
   line-height: 1.58;
-  letter-spacing: -.003em; }
+  letter-spacing: -.003em;
+  margin-bottom: 200px; }
   @media (min-width: 320px) {
     article.post {
       padding-top: 50px;
@@ -685,7 +686,8 @@ article.post {
 
 h1, h2, h3, h4, h5 {
   font-family: Open Sans,'Helvetica Neue',Helvetica,Arial,sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-top: 50px; }
   @media (min-width: 320px) {
     h1, h2, h3, h4, h5 {
       font-size: 30px; } }
@@ -701,11 +703,16 @@ div.footnotes {
   div.footnotes p {
     font-size: 16px; }
 
+header.post-header {
+  margin-top: 25px; }
+
 div.post-content img {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 pre.highlight {
   color: white; }
