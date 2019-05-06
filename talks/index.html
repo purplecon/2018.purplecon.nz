@@ -21,6 +21,13 @@ layout: default
           <div class="talk-content">
               <h3 class="title">{{ talk.title}}</h3>
               <p class="abstract">{{ talk.description }}</p>
+              <p class="archive">
+                {% for link in site.data.archive %}
+                {% if talk.id == link.id %}
+                    <a class="archive-link" href="{{ link.href }}">{{ link.text }}</a>
+                {% endif %}
+                {% endfor %}
+              </p>
           </div>
           <div class="speaker">
               <h4 class="speaker"><span class="speaker-prefix">delivered to you by: </span>{{ talk.speaker }}</h3>
